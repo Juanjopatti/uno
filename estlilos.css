@@ -1,0 +1,53 @@
+.contenedor .header {
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    padding: 10px 20px 10px 20px;
+    background: aqua;
+}
+
+.contenedor .header .nav {
+    display: flex;
+}
+
+.contenedor .header .nav ul {
+    display: flex;
+}
+
+.contenedor .header .nav ul li {
+    list-style: none;
+    margin: 0 10px 0 10px;
+}
+
+.contenedor .header .nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.formulario {
+    padding-top: 15px;
+    margin-left: 20px;
+}
+
+.header .btnMenu {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav, ul {
+        flex-direction: column;
+    }
+    .contenedor .header .btnMenu {
+        display: block;
+        border: none;
+        background: none;
+        width: 35px;
+        height: 35px;
+        
+    }
+
+    .contenedor .header .menu i{
+        font-size: 20px;
+    }
+    
+}
