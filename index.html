@@ -6,13 +6,14 @@
     <link rel="shortcut icon" href="./img/uno_color.ico">
     <script src="https://kit.fontawesome.com/bdf2e61ad5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estlilos_header.css">
+    <link rel="stylesheet" href="estilos.css">
     <title>Uno | Argentina</title>
 </head>
 <body>
     <div class="contenedor">
         <header class="header" id="idHeadwer">
             <div class="logo">
-                <a href="#"><img src="./img/uno_color.png" alt="Logo" width="100px"></a>
+                <a href="#"><img src="./img/uno_color.png" alt="Logo" width="130px"></a>
             </div>
             <div class="nav" id="idNav">
                 <ul>
@@ -28,14 +29,60 @@
                 </form>
             </div>
             <div class="menu" id="idMenu">
-                <button type="submit" class="btnMenu" id="idBtnMenu"><i class="fa-solid fa-bars"></i></button>
+                <button type="submit" class="btnMenu" id="idBtnMenu" onclick="mostrarMenu()"><i class="fa-solid fa-bars"></i></button>
             </div>
         </header>
         <main class="main">
-            <div class="imgPricipal">
-                <img src="./img/uno_color.png" alt="">
+            <div class="imgPrincipal">
+                <img src="./img/uno_color.png" alt="imagen principal">
+            </div>
+            <div class="wsp">
+                <a href="https://wa.me/541169989872?text=Hola%20quiero%20mas%20info"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <div class="cont2">
+                <div class="mapa">
+                    <h2>Vení a conocernos</h2>
+                    <p>Visitanos en nuestro local y mirá todo lo que tenemos para vos</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.634247618113!2d-58.47717862444742!3d-34.840287472870536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd14d8655ba27%3A0xf3d540b8d184646!2sParan%C3%A1%201394%2C%20B1842%20Monte%20Grande%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1715522249231!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="imgCont2">
+                    <h2>Envío Gratis</h2>
+                <p>En compras superiores a $30.000</p>
+                    <img src="./img/envioGratis.png" alt="Envio gratis" width="400" height="300">
+                </div>
             </div>
         </main>
+        <footer class="footer" id="idFooter">
+            <div class="links_pie">
+                <a href="#">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="index.html">Tienda</a>
+
+            </div>
+            <div class="redes">
+                <span><a href="https://www.facebook.com/profile.php?id=61559456645704" target="_blank"><i class="fa-brands fa-facebook"></i> </a></span>
+                <span><a href="redes.html" target="_blank"><i class="fa-brands fa-instagram"></i></a></span>
+                <span><a href="redes.html" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></span>
+                <span><a href="https://www.youtube.com/channel/UCEyWFkWDSM3XAO_s-RsM-vQ" target="_blank"><i class="fa-brands fa-youtube"></i></a></span>
+                <span><a href="https://wa.me/541169989872?text=Hola%20quiero%20mas%20info" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></span>
+
+            </div>
+            <div class="texto">
+                <p><span class="titulo">Nuestra tienda está en Monte Grande, Buenos Aires, Argentina</span><br>
+                trabajamos con clientes de todo el país. ¡pongase en contacto con nosotros!</p>
+            </div>
+            <div class="contacto">
+                <span><i class="fa-solid fa-envelope"></i><span class="correo"><b>info_uno@gmail.com</b></span></span>
+                <span><i class="fa-solid fa-square-phone"></i><span class="spcontac"><b>(011)69989872</b></span></span>
+                <span class="ubicacion"><i class="fa-solid fa-location-dot"></i><span class="spcontac"><b>Paraná 1394</b></span><br> Buenos Aires | Argentina</span>
+            </div>
+            <div class="copy">
+                <p>Copyright<i class="fa-regular fa-copyright"></i>UNO Todos los derechos reservados</p>
+            </div>`
+        </footer>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
