@@ -177,11 +177,6 @@
     font-size: 1.2em;
 }
 
-.logoPie img{
-    color: #fff;
-    width: 100px;
-}
-
 .copy {
     display: flex;
     align-items: center;

@@ -1,3 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+}
 .main .pagDes {
     text-align: center;
     background: black;
@@ -61,6 +69,16 @@ h2 {
 @media screen and (max-width: 768px) {
     .main .cont2 {
         flex-direction: column;
+    }
+
+    .map {
+        width: 250px;
+        height: 150px;
+    }
+
+    .imgCont2 img {
+        width: 250px;
+        height: 150px;
     }
     
 }
