@@ -21,6 +21,10 @@
 .collapse {
     justify-content: end;
 }
+
+i {
+    color: rgba(255, 255, 255, 1);
+}
 /*#idNav {
     visibility: visible;
 }*/
@@ -73,6 +77,7 @@
     .collapse {
         display: flex;
         flex-direction: column;
+        justify-content: end;
     }
     .contenedor .header {
         height: auto;
@@ -111,6 +116,8 @@
     .contenedor .header .menu i{
         font-size: 20px;
     }
+
+ 
     
 }
 /*--------------------------------------------------------------
@@ -212,6 +219,10 @@
         flex-direction: column;
         text-align: center;
     }
+
+    .navbar-nav .nav-item .nav-link {
+        color: rgba(255, 255, 255, 1);
+    }
     
 }
 
@@ -219,5 +230,12 @@
     .footer .links_pie {
         flex-direction: column;
         text-align: center;
+    }
+    .navbar-nav .nav-item .nav-link {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .navbar-toggler-icon {
+        color: rgba(255, 255, 255, 1);
     }
 }
