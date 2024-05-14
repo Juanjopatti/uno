@@ -2,7 +2,7 @@
 
 .contenedor .header {
     display: flex;
-    justify-content:space-between;
+    
     align-content: center;
     padding: 10px 20px 10px 20px;
     background: aqua;
@@ -10,11 +10,24 @@
     
 }
 
-#idNav {
-    visibility: visible;
+.navbar {
+    width: 100%;
 }
 
-.contenedor .header .nav {
+.navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+
+.collapse {
+    justify-content: end;
+}
+/*#idNav {
+    visibility: visible;
+}*/
+
+
+
+/*.contenedor .header .nav {
     display: flex;
 }
 
@@ -41,21 +54,26 @@
     border-radius: 4px;
     
 }
-
-.formulario .btnBuscar {
+*/
+.btn-primary {
     background: #f709c4;
     color: #fff;
     border: none;
     border-radius: 4px;
     padding: 3px 6px 3px 6px;
 }
-
+/*
 .header .btnMenu {
     color: #fff;
     visibility: hidden;
-}
+}*/
 
 @media screen and (max-width: 768px) {
+
+    .collapse {
+        display: flex;
+        flex-direction: column;
+    }
     .contenedor .header {
         height: auto;
     }
